@@ -2,7 +2,7 @@
 
 Monte-Carlo estimation of the conditional expected excess loss for a policyholder portfolio, combining rejection and inversion sampling for the reimbursement distribution, a Markov-chain weather driver, and an R-to-C++ interface for the most compute-intensive routine.
 
-Academic project (Master 1 Actuariat, ISFA — Simulation), supervised by Prof. Alexis Bienvenüe. Co-authored with C. A. D. Kouamé and S. Ouattara.
+Academic project (Master 1 Actuariat, ISFA — Simulation), Co-authored with C. A. D. Kouamé and S. Ouattara.
 
 ## What this project does
 
