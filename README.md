@@ -51,10 +51,10 @@ Sensitivity of `m(s)` to `x₀` and `η`, ggplot visualisations of the reimburse
 
 At `N = 10 000` motorbikes, `s = 4 000`, 1 000 simulations:
 
-| Estimator | User time | System time | Elapsed |
-|---|---:|---:|---:|
-| `msb` (pure R) | — | — | ~375 s |
-| `msb.c` (R + C++ via Rcpp) | — | — | ~297 s |
+| Estimator | Elapsed |
+|---|---:|
+| `msb` (pure R) | ~375 s |
+| `msb.c` (R + C++ via Rcpp) | ~297 s |
 
 About a **20 % wall-clock reduction** on the alternative estimator by moving the two hot loops to C++.
 
