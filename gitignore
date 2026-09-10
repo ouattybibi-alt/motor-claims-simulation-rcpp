@@ -1,0 +1,17 @@
+# R
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata
+
+# Knit outputs
+*.html
+*.pdf
+!projet_simu.pdf
+*.log
+*.aux
+*.tex
+
+# System
+.DS_Store
+Thumbs.db
