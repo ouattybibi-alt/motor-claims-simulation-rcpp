@@ -47,3 +47,15 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Project-specific: knit outputs (keep the report)
+*.html
+*.pdf
+!projet_simu.pdf
+*.log
+*.aux
+*.tex
+
+# System
+.DS_Store
+Thumbs.db

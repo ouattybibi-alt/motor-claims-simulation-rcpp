@@ -8,7 +8,7 @@ Academic project (Master 1 Actuariat, ISFA — Simulation), Co-authored with C. 
 
 Everything runs from a single R Markdown notebook:
 
-- `R/motor_claims_simulation.Rmd` — full implementation: samplers, weather chain, both estimators (`msa`, `msb`), and their C++ port (`msb.c`)
+- `motor_claims_simulation.Rmd` — full implementation: samplers, weather chain, both estimators (`msa`, `msb`), and their C++ port (`msb.c`)
 - `projet_simu.pdf` — full write-up with derivations, C code listings and execution-time comparisons
 
 ## What the notebook does
@@ -69,7 +69,7 @@ The Rcpp toolchain needs a working C++ compiler. On Windows, install **Rtools** 
 ## Quick start
 
 ```r
-rmarkdown::render("R/motor_claims_simulation.Rmd")
+rmarkdown::render("motor_claims_simulation.Rmd")
 ```
 
 or open the file in RStudio and knit it. The two `system.time(...)` calls at the end of the file reproduce the head-to-head R vs Rcpp timing.
